@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(330, 100%, 98%);
+    font-size: 16px;
+
+}
+
+main {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Img img {
+    width: 100%;
+
+}
+
+img {
+    border-radius: 15px;
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    line-height: 2;
+    padding-left: 10px;
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.time h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.instruction ul li {
+    list-style-type: decimal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    /* Add bottom border to td */
+
+}
+
+td:nth-last-child(odd) {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 400px) {
+    main {
+        margin: 0px 10px 10px;
+        padding: 0px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    body {
+        background-color: white;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
